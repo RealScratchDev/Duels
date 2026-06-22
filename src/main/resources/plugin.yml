@@ -1,0 +1,11 @@
+name: SparkDuels
+version: 1.0.0
+main: com.scratchdev.sparkduels.Duels
+author: ScratchDev
+api-version: 1.21
+depend: [FastAsyncWorldEdit]
+permissions:
+  spark.duels.admin:
+    default: op
+  spark.duels.use:
+    default: true
